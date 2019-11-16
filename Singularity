@@ -7,7 +7,7 @@ yum -y update
 
 pip3.6 install --upgrade pip
 pip install numpy \
-		scipy \
+	scipy \
         pandas \
         scikit-learn \
         jupyter \
@@ -18,5 +18,6 @@ pip install numpy \
         seaborn \
         scikit-image \
         bokeh \
-        lightgbm
-
+        lightgbm \
+        hyperopt \
+        xgboost
